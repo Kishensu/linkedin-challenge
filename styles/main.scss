@@ -52,7 +52,13 @@ h1 {
 	justify-content: center;
 	background: $linkedin-accent-blue;
 	border-radius: 0.3125rem;
+	@include tablet {
+		width: 30vw;
 
+	}
+	@include desktop {
+		width: 30vw;
+	}
 	&__img {
 		text-align: center;
 		padding: 0.625rem 0;
