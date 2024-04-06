@@ -48,7 +48,7 @@ function createPost() {
         newPost.appendChild(likeButton);
 
         
-        postsSection.appendChild(newPost);
+        postsSection.prepend(newPost);
 
         
         document.querySelector('input[type="text"]').value = '';
